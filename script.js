@@ -77,6 +77,28 @@ function comparing(x ,y) {
   
   if (math2 > math1 && math1 < 20 && math2 < 20)
     alert(`You win!`)
+
+  if (math1 == 20 && math2 != 20) {
+      alert(`You win!`)
+  }
+
+  if (math2 == 20 && math1 != 20) {
+      alert(`Computer wins!`)
+  }
+
+  if (math1 > math2 && math1 <= 20) {
+      alert(`You win!`)
+  }
+
+  if (math2 > math1 && math2 <= 20) {
+      alert(`Computer wins!`)
+  }
+
 }
+
+
+
+
+
 
 comparing()
